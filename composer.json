@@ -13,7 +13,8 @@
         }
     },
     "scripts": {
-        "test": "php tests/run.php"
+        "test": "php tests/run.php",
+        "test:producer": "php tests/producer.php"
     },
     "repositories": [
         {
