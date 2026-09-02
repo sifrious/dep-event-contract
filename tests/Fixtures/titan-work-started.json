@@ -1,0 +1,42 @@
+{
+    "contract": "sifrious.cross-package-event",
+    "contract_version": 1,
+    "id": "evt_titan_02",
+    "type": "work.started",
+    "producer": "sifrious/titan",
+    "event_version": "2",
+    "occurred_at": "2026-08-28T10:01:00.000000+00:00",
+    "observed_at": null,
+    "recorded_at": "2026-08-28T10:01:00.100000+00:00",
+    "subjects": [
+        {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/titan",
+            "type": "work-item",
+            "id": "work_01",
+            "object_version": "revision:7",
+            "provenance": null
+        }
+    ],
+    "causation_id": "evt_aleph_01",
+    "correlation_id": "sync_01",
+    "provenance": [],
+    "source_metadata": null,
+    "payload": {
+        "transition": "queued-to-running",
+        "actor": "agent_01"
+    },
+    "stream_position": {
+        "stream": {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/titan",
+            "type": "work-item",
+            "id": "work_01",
+            "object_version": null,
+            "provenance": null
+        },
+        "sequence": 7
+    }
+}

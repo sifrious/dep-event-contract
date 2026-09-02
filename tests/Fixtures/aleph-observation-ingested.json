@@ -1,0 +1,55 @@
+{
+    "contract": "sifrious.cross-package-event",
+    "contract_version": 1,
+    "id": "evt_aleph_01",
+    "type": "observation.ingested",
+    "producer": "sifrious/aleph",
+    "event_version": "1",
+    "occurred_at": "2026-08-28T10:00:00.000000+00:00",
+    "observed_at": "2026-08-28T10:00:02.000000+00:00",
+    "recorded_at": "2026-08-28T10:00:03.000000+00:00",
+    "subjects": [
+        {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/aleph",
+            "type": "observation",
+            "id": "obs_01",
+            "object_version": "sha256:abc",
+            "provenance": null
+        }
+    ],
+    "causation_id": null,
+    "correlation_id": "sync_01",
+    "provenance": [
+        {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/funes",
+            "type": "provenance",
+            "id": "prov_01",
+            "object_version": null,
+            "provenance": null
+        }
+    ],
+    "source_metadata": {
+        "provider": "github",
+        "source_id": "github:repo_01"
+    },
+    "payload": {
+        "resource": "github:issue_42",
+        "content_hash": "sha256:abc"
+    },
+    "stream_position": {
+        "stream": {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/aleph",
+            "type": "sync",
+            "id": "sync_01",
+            "object_version": null,
+            "provenance": null
+        },
+        "sequence": 12
+    }
+}

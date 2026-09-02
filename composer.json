@@ -1,0 +1,29 @@
+{
+    "name": "sifrious/event-contract",
+    "description": "Framework-neutral cross-package event values and serialization contracts.",
+    "license": "proprietary",
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "sifrious/reference-contract": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sifrious\\EventContract\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com-sifrious:sifrious/dep-reference-contract.git"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

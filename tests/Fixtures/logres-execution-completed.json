@@ -1,0 +1,53 @@
+{
+    "contract": "sifrious.cross-package-event",
+    "contract_version": 1,
+    "id": "evt_logres_03",
+    "type": "execution.completed",
+    "producer": "sifrious/logres",
+    "event_version": "1",
+    "occurred_at": "2026-08-28T10:03:00.000000+00:00",
+    "observed_at": "2026-08-28T10:03:00.010000+00:00",
+    "recorded_at": "2026-08-28T10:03:00.020000+00:00",
+    "subjects": [
+        {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/logres",
+            "type": "execution",
+            "id": "execution_01",
+            "object_version": null,
+            "provenance": null
+        },
+        {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/titan",
+            "type": "work-item",
+            "id": "work_01",
+            "object_version": null,
+            "provenance": null
+        }
+    ],
+    "causation_id": "evt_titan_02",
+    "correlation_id": "sync_01",
+    "provenance": [
+        {
+            "contract": "sifrious.cross-package-reference",
+            "contract_version": 1,
+            "owner": "sifrious/logres",
+            "type": "runtime-log",
+            "id": "log_01",
+            "object_version": "sha256:def",
+            "provenance": null
+        }
+    ],
+    "source_metadata": {
+        "runtime": "local",
+        "exit_code": 0
+    },
+    "payload": {
+        "outcome": "succeeded",
+        "duration_ms": 120000
+    },
+    "stream_position": null
+}
