@@ -19,7 +19,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com-sifrious:sifrious/dep-reference-contract.git"
+            "url": "https://github.com/sifrious/dep-reference-contract.git"
         }
     ],
     "config": {
