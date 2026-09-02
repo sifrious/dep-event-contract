@@ -16,9 +16,10 @@ composer test
 
 `EventEnvelopeContract` is the consumer-facing interface.
 `AbstractEventEnvelope` owns provider-neutral validation and serialization.
-`EventEnvelope` is the canonical concrete v1 value. Provider packages should
-use adapters or factories to create it instead of defining provider-specific
-event-envelope subclasses.
+`EventEnvelope` is the canonical concrete v1 value. It remains extensible only
+for namespace-compatibility adapters; provider packages should use adapters or
+factories to create it instead of defining provider-specific event-envelope
+subclasses.
 
 Delivery attempts, retries, transports, outboxes, dead letters, authorization,
 and history storage are deliberately outside this package.

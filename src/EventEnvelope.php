@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 namespace Sifrious\EventContract;
 
-final readonly class EventEnvelope extends AbstractEventEnvelope
+readonly class EventEnvelope extends AbstractEventEnvelope
 {
 }
